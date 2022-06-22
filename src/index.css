@@ -1,13 +1,260 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* CategoryBox */
+
+.card {
+  width: 20rem;
+  height: 24rem;
+  margin-right: 45px;
+  margin-top: 45px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.embed-responsive .card-img-top {
+  object-fit: cover;
 }
+
+a {
+  text-decoration: none;
+}
+
+.card-title {
+  color: #484848;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.card-title:hover {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+#edit-category {
+  float: right;
+}
+
+/* CategoryBox */
+
+/* start ProductBox */
+.embed-responsive .card-img-top {
+  object-fit: cover;
+}
+
+
+.product .card-title {
+  color: #484848;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.product .card-title:hover {
+  font-weight: bold;
+}
+
+.product .card-text {
+  font-size: 0.9rem;
+}
+
+#edit-product {
+  float: right;
+}
+
+/* end ProductBox */
+
+/* start Product */
+.card{
+  width : 20rem;
+  height : 24rem;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  color: #484848;
+  font-weight: 700;
+}
+
+#add-product {
+  float: right;
+  font-weight: 500;
+}
+/* end Product */
+
+/* Start Navbar */
+#logo {
+  width: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#search-button-navbar {
+  background-color: #febd69;
+  border-color: #febd69;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255);
+}
+/* End Navbar */
+
+/* Start Footer */
+footer {
+  margin-top : 100px;
+  background-color:#232F3E;
+  font-size:16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer li {
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #DDD;
+}
+
+#logo {
+  width: 150px;
+}
+
+/* End Footer */
+
+/* Start Category */
+
+h4.categoryTitle {
+  font-family: 'Roboto', sans-serif;
+  color: #484848;
+  font-weight: 700;
+}
+
+#add-category {
+  float: right;
+  font-weight: 500;
+}
+
+/* End Category */
+
+/*Start home*/
+
+.page-holder {
+  min-height: 100vh;
+}
+
+.bg-cover {
+  background-size: cover !important;
+}
+
+#background-div {
+  background: url(assets/home.jpg)
+}
+
+#heading {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  opacity: 0.8;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#content {
+  opacity: 0.8;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/*End home*/
+
+/*start shoeDetail*/
+.category {
+  font-weight: 400;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#add-to-cart-button {
+  background-color: #febd69;
+}
+
+/*end shoeDetail*/
+
+/*start signup and signin */
+
+.btn-dark {
+  background-color: #e7e9ec;
+  color: #000;
+  font-size: smaller;
+  border-radius: 0;
+  border-color: #adb1b8 #a2a6ac #a2a6ac;
+}
+
+.btn-primary {
+  background-color: #f0c14b;
+  color: black;
+  border-color: #a88734 #9c7e31 #846a29;
+  border-radius: 0;
+}
+
+#logo {
+  width: 150px;
+}
+
+@media only screen and (min-width: 992px) {
+  #signup-div {
+    width: 40%;
+  }
+}
+
+/*end signup and signin */
+
+/* start cart */
+h4, h5 {
+  font-family: 'Roboto', sans-serif;
+  color: #484848;
+  font-weight: 700;
+}
+
+.embed-responsive .card-img-top {
+  object-fit: cover;
+}
+
+#item-price {
+  color: #232F3E;
+}
+
+#item-quantity{
+  float: left;
+}
+
+#item-total-price {
+  float: right;
+}
+
+.confirm {
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* end cart */
